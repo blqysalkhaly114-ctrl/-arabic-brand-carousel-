@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>تحدي فخر الفيزيائيين - الصف التاسع</title>
+<link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #0f1e3d;
+    --bg-2: #1b3266;
+    --accent: #f5b942;
+    --text: #ffffff;
+    --muted: #c9d4ee;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: #0a1428;
+    font-family: "Tajawal", "Segoe UI", sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 40px 16px;
+  }
+  .slide {
+    width: 1080px;
+    height: 1350px;
+    background: linear-gradient(160deg, var(--bg) 0%, var(--bg-2) 100%);
+    color: var(--text);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 110px 100px;
+  }
+  .slide::before {
+    content: "";
+    position: absolute;
+    width: 620px;
+    height: 620px;
+    border: 3px solid rgba(245, 185, 66, 0.25);
+    border-radius: 50%;
+    top: -180px;
+    left: -180px;
+  }
+  .slide::after {
+    content: "⚛";
+    position: absolute;
+    bottom: 60px;
+    left: 80px;
+    font-size: 140px;
+    color: rgba(245, 185, 66, 0.18);
+  }
+  .num {
+    position: absolute;
+    top: 70px;
+    right: 90px;
+    font-size: 36px;
+    color: var(--accent);
+    font-weight: 700;
+  }
+  .tag {
+    display: inline-block;
+    align-self: flex-start;
+    background: var(--accent);
+    color: var(--bg);
+    font-weight: 900;
+    font-size: 36px;
+    padding: 10px 28px;
+    border-radius: 999px;
+    margin-bottom: 40px;
+  }
+  h1 {
+    font-size: 116px;
+    font-weight: 900;
+    line-height: 1.2;
+    margin-bottom: 36px;
+  }
+  h1 span { color: var(--accent); }
+  h2 {
+    font-size: 84px;
+    font-weight: 900;
+    line-height: 1.25;
+    margin-bottom: 40px;
+  }
+  p {
+    font-size: 46px;
+    line-height: 1.6;
+    color: var(--muted);
+  }
+  ul { list-style: none; display: flex; flex-direction: column; gap: 34px; }
+  li {
+    font-size: 50px;
+    line-height: 1.4;
+    padding-right: 60px;
+    position: relative;
+  }
+  li::before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 22px;
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+  .box {
+    margin-top: 50px;
+    border: 3px dashed var(--accent);
+    border-radius: 28px;
+    padding: 36px 44px;
+    font-size: 44px;
+    color: var(--accent);
+    font-weight: 700;
+  }
+  .footer {
+    position: absolute;
+    bottom: 60px;
+    right: 100px;
+    left: 100px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    color: var(--muted);
+  }
+</style>
+</head>
+<body>
+
+<!-- Slide 1: Cover -->
+<section class="slide">
+  <span class="num">1/6</span>
+  <span class="tag">الصف التاسع</span>
+  <h1>تحدي <span>فخر</span><br>الفيزيائيين</h1>
+  <p>هل أنت مستعد تثبت إنك فيزيائي من الدرجة الأولى؟</p>
+  <div class="footer"><span>اسحب لليسار</span><span>←</span></div>
+</section>
+
+<!-- Slide 2: What is it -->
+<section class="slide">
+  <span class="num">2/6</span>
+  <span class="tag">عن التحدي</span>
+  <h2>ايش هو التحدي؟</h2>
+  <p>مسابقة فيزيائية تختبر فهمك للمفاهيم والتطبيقات من منهج الصف التاسع، بأسئلة تحتاج تفكير وليس حفظ فقط.</p>
+  <div class="box">التاريخ: [أضف التاريخ]</div>
+</section>
+
+<!-- Slide 3: Topics -->
+<section class="slide">
+  <span class="num">3/6</span>
+  <span class="tag">المحاور</span>
+  <h2>ايش بنغطي؟</h2>
+  <ul>
+    <li>الحركة والسرعة</li>
+    <li>القوى وقوانين نيوتن</li>
+    <li>الشغل والطاقة</li>
+    <li>الضغط والمائعات</li>
+  </ul>
+  <div class="footer"><span>* عدّل المحاور حسب المنهج الرسمي</span><span></span></div>
+</section>
+
+<!-- Slide 4: Who can join -->
+<section class="slide">
+  <span class="num">4/6</span>
+  <span class="tag">الشروط</span>
+  <h2>مين يقدر يشارك؟</h2>
+  <ul>
+    <li>طلاب وطالبات الصف التاسع</li>
+    <li>التسجيل قبل [أضف الموعد النهائي]</li>
+    <li>المشاركة فردية أو ضمن فريق [عدّل حسب الشروط]</li>
+  </ul>
+</section>
+
+<!-- Slide 5: Prizes -->
+<section class="slide">
+  <span class="num">5/6</span>
+  <span class="tag">الجوائز</span>
+  <h2>ايش تكسب؟</h2>
+  <ul>
+    <li>لقب "فخر الفيزيائيين"</li>
+    <li>جوائز للمراكز الأولى [أضف التفاصيل]</li>
+    <li>شهادة مشاركة للجميع</li>
+  </ul>
+</section>
+
+<!-- Slide 6: CTA -->
+<section class="slide">
+  <span class="num">6/6</span>
+  <span class="tag">سجّل الحين</span>
+  <h1>جاهز <span>للتحدي</span>؟</h1>
+  <p>سجّل الحين وخلّ الفيزياء تثبت نفسها.</p>
+  <div class="box">رابط التسجيل: [أضف الرابط]</div>
+</section>
+
+</body>
+</html>
